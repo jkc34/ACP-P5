@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Server",
+            "request": "launch",
+            "mainClass": "Server",
+            "projectName": "ACP-P5_323a004f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SocketServer",
+            "request": "launch",
+            "mainClass": "SocketServer",
+            "projectName": "ACP-P5_323a004f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "Client"
+        }
+    ]
+}
