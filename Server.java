@@ -1,7 +1,7 @@
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Server {
+public class Server{
     final static int PORT = 8081;
     ServerSocket server;
 

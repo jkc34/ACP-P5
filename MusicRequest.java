@@ -6,7 +6,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class MusicRequest implements Runnable {
+public class MusicRequest extends Thread{
     Socket s;
     Scanner in;
     PrintWriter out;
@@ -35,10 +35,12 @@ public class MusicRequest implements Runnable {
         System.out.println("Begin getRequest");
         ArrayList<String> parameters = new ArrayList<String>();
         String st = in.nextLine();
-        System.out.println("Request = " + st + " the parameters follow");
-        String [] params = st.split(" ");
+        System.out.println("Request = " + st + "\nthe parameters follow");
+        String[] params = st.split(" ");
 
-        for (int i=1; i<params.length; i++) {
+        System.out.print(params.length);
+
+        for (int i=0; i<params.length; i++) {
             parameters.add(params[i]);
             System.out.println(parameters.get(i));
         }

@@ -108,7 +108,7 @@ public class ClientGUI extends Application {
         if(! maxInput.getText().trim().isEmpty()) {
             output.append(maxInput.getText().toString() + " ");
         } else {
-            output.append(" null");
+            output.append("null ");
         }
 
         output.append(dataReader(warehouseInput.getValue()));
@@ -121,7 +121,7 @@ public class ClientGUI extends Application {
         if (str != null) {
             return (str + " ");
         } else {
-            return (" all");
+            return ("all ");
         }
     }
 
