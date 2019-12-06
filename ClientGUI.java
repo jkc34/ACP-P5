@@ -1,6 +1,5 @@
 import javafx.collections.FXCollections;
 import javafx.scene.control.ChoiceBox;
-import java.util.ArrayList;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -123,12 +122,5 @@ public class ClientGUI extends Application {
         } else {
             return ("all ");
         }
-    }
-
-    private ArrayList<String> getResponse() {
-        ArrayList<String> response = new ArrayList<String>();
-        //recieve string array & display to child window
-        System.out.println("getResponse called");
-        return response;
     }
 }

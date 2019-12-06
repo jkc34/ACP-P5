@@ -44,7 +44,7 @@ public class MusicRequest extends Thread{
             parameters.add(params[i]);
             System.out.println(parameters.get(i));
         }
-        executeRequest(parameters);
+//        executeRequest(parameters);
     }
 
     public void executeRequest(ArrayList<String> params) {
